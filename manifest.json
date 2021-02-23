@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+
+    "name": "slon",
+    "developer": {
+        "name": "nigga"
+    },
+    "description": "tuuuuuuuuuut",
+    "version": "419.68",
+
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["https://is.muni.cz/auth/el/*"],
+            "js": ["ext_inject.js"]
+        }
+    ],
+    "web_accessible_resources": [
+        "ext.js"
+    ]
+}
