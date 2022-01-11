@@ -16,7 +16,7 @@
 
     "content_scripts": [
         {
-            "matches": ["https://is.muni.cz/auth/el/*"],
+            "matches": ["https://is.muni.cz/auth/el/*", "https://is.muni.cz/auth/player*"],
             "js": ["ext_inject.js"]
         }
     ],
